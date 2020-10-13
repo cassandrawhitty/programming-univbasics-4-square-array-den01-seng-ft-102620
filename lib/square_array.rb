@@ -1,5 +1,5 @@
 def square_array(array)
-  count = 0
+  new_array = [];
   while array[count] < array.length 
     array[count] ** 2
   end
